@@ -1,0 +1,138 @@
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 3rem;
+  }
+
+  .main-heading {
+    font-size: 4rem;
+  }
+
+  .text-red2 {
+    color: #ff4400c0;
+    font-size: 3rem;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .header-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .header-image {
+    height: 290px;
+    width: 290px;
+  }
+
+  .header-info > h1,
+  .header-info > p {
+    font-size: 3rem;
+  }
+
+  .button button {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  /* $$$$$$$$$$$$ ABOUT SECTION $$$$$$$$$$$$$$$ */
+  #About {
+    flex-direction: column;
+    margin: 10rem 2rem;
+  }
+
+  .about-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .about-content h1 {
+    font-size: 4rem;
+    margin-top: 2rem 0;
+    width: 100%;
+  }
+
+  /* $$$$$$$$$$$$ SKILLS SECTION $$$$$$$$$$$$$$$ */
+  .card {
+    min-width: 70px;
+    max-width: 70px;
+    height: 70px;
+    border: 2px solid #ff4400c0;
+  }
+
+  #Skills > h1 {
+    font-size: 4rem;
+  }
+
+  /* $$$$$$$$$$$$ PROJECT SECTION $$$$$$$$$$$$$$$ */
+
+  .project-wrapper2 {
+    flex-direction: column;
+  }
+
+  .project-wrapper {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .project-wrapper .project-info,
+  .project-wrapper2 .project-info {
+    min-width: 100%;
+  }
+
+  /* $$$$$$$$$$$$ CONTACT SECTION $$$$$$$$$$$$$$$ */
+  #contact-content {
+    flex-direction: column;
+  }
+  #contact-header {
+    font-size: 0.1rem;
+  }
+
+  #contact-info {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5rem;
+  }
+
+  #contact-form {
+    width: 100%;
+  }
+
+  .contact-text {
+    width: 90%;
+    height: 5rem;
+    margin-top: 1rem;
+  }
+
+  #contact-info > h1 {
+    font-size: 1.5rem;
+  }
+
+  #contact-info > p {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+  }
+
+  #contact-form > h1 {
+    font-size: 2.5rem;
+  }
+
+  #contact-form > h3{
+    font-size: 2rem;
+  }
+
+  #contact-button {
+    width: 90%;
+  }
+}

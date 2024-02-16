@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="media2.css" />
+
+    <title>Tawan Portfolio</title>
+  </head>
+  <body>
+    <div id="main">
+      <!-- <div id="loader">
+
+        <div class="welcome">welcome to my Portfolio</div>
+
+        <div class="numbers">
+          <div class="n100 num">
+            <h1>100</h1>
+          </div>
+
+          <div class="n77 num">
+            <h1>77</h1>
+          </div>
+
+          <div class="n55 num">
+            <h1>55</h1>
+          </div>
+
+          <div class="n33 num">
+            <h1>33</h1>
+          </div>
+        </div>
+      </div> -->
+
+      <div id="landing">
+        <nav id="desktop-nav">
+          <div class="logo">Omkar.</div>
+          <div>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="hamburger-nav">
+          <div class="logo">Omkar</div>
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+              </li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content container">
+          <div class="header-info">
+            <h1 class="hello">Hello, Myself</h1>
+            <h1 class="name">Omkar Dhawan</h1>
+            <p class="p">And I am</p>
+            <h1 class="developer">
+              <span id="element">Web Developer</span>
+            </h1>
+            <div class="button">
+              <button class="btn-primary">
+                <a href="Omkar's Resume.pdf" style="color: black"
+                  >Download Resume</a
+                >
+              </button>
+              <button class="btn-2 explore">Hire me</button>
+            </div>
+          </div>
+
+          <div class="header-image">
+            <img src="./Images/profile-pic.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="About">
+
+        <div class="about-img">
+          <img src="./Images/about-pic.jpg" alt="">
+        </div>
+  
+        <div class="about-content">
+          <h1 class="about-title">So Who Am I ?</h1>
+          <p class="about-para">
+            My name is Omkar Dhawan,and i am 23 year old.Currently I am pursuing
+            degree in Electronic and Telecommunication at Finolex Academy of
+            Management & Technology.
+            I am a boy who has knowledge front-end as well as back-end also,and ready to work as Full Stack web devloper
+            If you are looking for webdevloper / designer then,Yess you are
+            looking right portfolio.If you want to see my work then,I have
+            mentioned my Projects below.Kindly,check out it!!.
+            I am looking for challenging role so that i can utilize my skills and capabilities
+            through sincere dedication and hard work for successful career. I am
+            looking and excited for my first work experience as web developer.
+            Trying to become proficient full stack developer.
+          </p>
+        </div>
+  
+      </div>
+
+      <div id="Skills" class="container">
+
+        <h1 class="skills-heading"> My Skills</h1>
+  
+        <div class="skill-wrapper">
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/html.jpeg.jpg" alt="">
+            </div>
+            <div class="second-content">
+              <span>HTML</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/css.webp" alt="">
+            </div>
+            <div class="second-content">
+              <span>CSS</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/js.jpg" alt="">
+            </div>
+            <div class="second-content">
+              <span>Javascript</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/bootstrap.jpg" alt="">
+            </div>
+            <div class="second-content">
+              <span>Bootstrap</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/tailwind-css-1024.png" alt="">
+            </div>
+            <div class="second-content">
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/java-logo.png" alt="">
+            </div>
+            <div class="second-content">
+              <span>Java</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/express.jpg" alt="">
+            </div>
+            <div class="second-content">
+              <span>Express Js</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images//Node.js-Logo.wine.png" alt="">
+            </div>
+            <div class="second-content">
+              <span>Node Js</span>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="first-content">
+              <img src="./Images/MongoDB_Logo-1024x536.jpg" alt="">
+            </div>
+            <div class="second-content">
+              <span>Mongo DB</span>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+
+      <div id="Project">
+
+        <h1 class="main-heading">Explore My Projects</h1>
+
+        <div class="project-wrapper container projects">
+
+            <div class="project-img">
+                <img src="./Images/bookyourtable.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h1 class="text-red2">Book Your Table</h1>
+                <p>This is a demo static website where you can <br><br>*Note:-In my laptop,I have made this website as dynamic where data is get stored in mongodb database.On netlify you can't host dynamic website.henced I have added only static part</p>
+                <div class="tech">
+                    <ul>
+                        <li class="text-red">FRONT-END</li>
+                        <li>HTML-5</li>
+                        <li>CSS-3</li>
+                        <li>JAVASCRIPT</li>
+                    </ul>
+                    <ul>
+                        <li class="text-red">BACK-END</li>
+                        <li>JAVASCRIPT</li>
+                        <li>NODE JS</li>
+                    </ul>
+                    <ul>
+                        <li class="text-red">DATABASE</li>
+                        <li>MONGO DB</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="project-wrapper2 container projects">
+
+            <div class="project-img">
+                <img src="./Images/art.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h1 class="text-red2">Art Explorer</h1>
+                <p>This is a demo static website where you can <br><br>*Note:-In my laptop,I have made this website as dynamic where data is get stored in mongodb database.On netlify you can't host dynamic website.henced I have added only static part</p>
+                <div class="tech">
+                    <ul>
+                        <li class="text-red">FRONT-END</li>
+                        <li>HTML-5</li>
+                        <li>CSS-3</li>
+                        <li>JAVASCRIPT</li>
+                    </ul>
+                    <ul>
+                        <li class="text-red">BACK-END</li>
+                        <li>JAVASCRIPT</li>
+                        <li>NODE JS</li>
+                        <li>EXPRESS JS</li>
+                    </ul>
+                    <ul>
+                        <li class="text-red">DATABASE</li>
+                        <li>MONGO DB</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="contact-page container">
+        <div>
+          <h1 class="main-heading">Contact Me</h1>
+        </div>
+
+        <div id="contact-content">
+
+          <div id="contact-info">
+            <h1><i class="fa-solid fa-location-dot"></i> Address :</h1>
+            <p>1313B,Siddhivinayak Housing Society MIDC,Ratnagiri 415-639</p>
+            <br>
+            <h1><i class="fa-solid fa-mobile"></i> Mobile no :</h1>
+            <p>8956503272</p>
+            <br>
+            <h1><i class="fa-solid fa-envelope"></i> Email-id :</h1>
+            <p>dhawanomkar355@gmail.com</p>
+          </div>
+
+          <div class="form">
+            <div id="contact-form">
+                <h1>Get In Touch</h1>
+                <h3>Name:</h3>
+                <input type="text" placeholder="Enter Name" class="contact-text">
+                <h3>Phone No:</h3>
+                <input type="text" placeholder="Enter No" class="contact-text">
+                <h3>Enter id:</h3>
+                <input type="text" placeholder="Enter email address(if available)" class="contact-text">
+                <br>
+                <button id="contact-button">SUBMIT</button>
+            </div>
+          </div>
+          
+        </div>
+  
+      </div>
+      </div>
+
+      <footer>
+  
+        <div class="social">
+          <a href="https://www.facebook.com/om.dhawan.545" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/dhawan_omkar" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/omkar-dhawan" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/OMKARDHAWAN" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+  
+        <p>Copyright &#169; 2024 Omkar Dhawan. All Rights Reserved.</p>
+      </footer>
+
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
